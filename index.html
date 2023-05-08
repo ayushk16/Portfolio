@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayush</title>
+    <link rel="icon" type="image/x-icon" href="./images/av1.png">
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav id="nav">
+        <h2>AYUSH</h2>
+        <a href="#page3"><button>contact</button></a>
+    </nav>
+
+    <div id="main">
+        
+        <div id="page"><div id="loophead">
+            <h1><b>. HI!</b> MY NAME IS <span><b>AYUSH</b></span> I'LL BE YOUR <b>HOST</b> I'LL GUIDE YOU THROUGH MY<span> EXPERIENCE </span>JOURNEY </h1>
+            <h1><b>. HI!</b> MY NAME IS <span><b>AYUSH</b></span> I'LL BE YOUR <b>HOST</b> I'LL GUIDE YOU THROUGH MY<span> EXPERIENCE </span>JOURNEY </h1>
+            <h1><b>. HI!</b> MY NAME IS <span><b>AYUSH</b></span> I'LL BE YOUR <b>HOST</b> I'LL GUIDE YOU THROUGH MY<span> EXPERIENCE </span>JOURNEY </h1>
+        </div>
+            <canvas></canvas>
+        </div>
+        <div  id="page1">
+            <div  id="about">
+                <h1>About Me</h1>
+                <div id="abcc" class="example" onscroll="ani()">
+                <div id="aboutcontent" class="" >
+                <p>Hello, my name is Ayush and I am an undergraduate student pursuing a degree in Computer Science Engineering. As a highly motivated individual, I am driven by the desire to succeed and excel in my field.</p><br>
+
+                <p>Throughout my academic career, I have gained a solid foundation in programming languages such as c++, data structures, web-dev, computer networking, etc concepts. I have also completed several challenging projects that have honed my software development skills and helped me develop a keen eye for detail and quality. I am constantly seeking to expand my skills and knowledge through personal projects.</p><br>
+                
+                <p>My interest in the software development industry started when i get an idea of virtual reality, where I was fascinated by the endless possibilities that software could offer. Ever since then, I have been continuously learning and practicing various technologies to keep myself up-to-date with the latest technologies.</p><br>
+
+                <p>As a person, I am a quick learner, a team player, and I thrive in challenging situations. I have developed good communication skills, which enables me to work efficiently with team mates and teachers.</p><br>
+                    
+                <p>I believe that my academic achievements, combined with my practical experience and passion for programming, make me an ideal candidate for an SDE role. I am excited about the prospect of putting my skills and knowledge to work, and I am confident that I will thrive in any challenging environment.</p><br>
+                    
+                <p>Thank you for taking the time to read my "about me" section. If you have any questions or would like to know more about me, please feel free to contact me.</p>
+                </div>
+                </div>
+            </div>
+            <input type="button" onclick="ani()" value="Click to Scroll">
+            
+            <!-- <button onclick="ani()">click here to scroll</button> -->
+        </div>
+        <div  id="page2">
+            <div id="projectframe">
+                <h1>Projects</h1>
+                <div class="tilesframe">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <input type="radio" name="slider" id="item-4">
+                    <input type="radio" name="slider" id="item-5">
+                    <div class="cards">
+                        <label class="proj" for="item-1" id="song-1">
+                            <img class="projimg" src="./images/caves.png" alt="web-img" style="padding: 8px 10px 0px 10px;">
+                            <a href="https://ayushk16.github.io/caves.github.io/" target="_blank" class="title"><div class="overlay">
+                                caves
+                            </div></a>
+                        </label>
+                        <label class="proj" for="item-2" id="song-2">
+                            <img class="projimg" src="./images/simon.jpg" alt="web-img" style="padding: 8px 10px 0px 10px;">
+                            <a href="https://ayushk16.github.io/simon-game/" target="_blank" class="title"><div class="overlay">
+                                simon-game
+                            </div></a>
+                        </label>
+                        <label class="proj" for="item-3" id="song-3">
+                            <a href=""><div class="overlay">youtube</div></a>
+                        </label>
+                        <label class="proj" for="item-4" id="song-4">
+                            <img class="projimg" src="./images/morse.jpg" alt="web-img" style="padding: 8px 0px 0px 0px;">
+                            <a href="https://github.com/ayushk16/morse-code" target="_blank" class="title"><div class="overlay">
+                                morse code
+                            </div></a>
+                        </label>
+                        <label class="proj" for="item-5" id="song-5">
+                            <a href=""><div class="overlay">git</div></a>
+                        </label>
+                    </div>
+                        <div class="descbox">
+                            <div class="cnt" id="test">
+                                <label class="info" for="item-1" id="song-1">
+                                    <div class="infoarea">
+                                        <a href="https://ayushk16.github.io/caves.github.io/" target="_blank" class="title">
+                                            <h3>caves</h3>
+                                        </a>
+                                        <p class="subtitle">
+                                            html css
+                                        </p>
+                                    </div>
+                                </label>
+                                <label class="info" for="item-2" id="song-2">
+                                    <div class="infoarea">
+                                        <a href="https://ayushk16.github.io/simon-game/" target="_blank" class="title">
+                                            <h3>simon-game</h3>
+                                        </a>
+                                        <p class="subtitle">
+                                            html css js jquery
+                                        </p>
+                                    </div>
+                                </label>
+                                <label class="info" for="item-3" id="song-3">
+                                    <div class="infoarea">
+                                        <a href="" class="title">
+                                            <h3>youtube</h3>
+                                        </a>
+                                        <p class="subtitle">
+                                            html css
+                                        </p>
+                                    </div>
+                                </label>
+                                <label class="info" for="item-4" id="song-4">
+                                    <div class="infoarea">
+                                        <a href="https://github.com/ayushk16/morse-code" target="_blank" class="title">
+                                            <h3>morse language code</h3>
+                                        </a>
+                                        <p class="subtitle">
+                                            python
+                                        </p>
+                                    </div>
+                                </label>
+                                <label class="info" for="item-5" id="song-5">
+                                    <div class="infoarea">
+                                        <a href="" class="title">
+                                            <h3>git</h3>
+                                        </a>
+                                        <p class="subtitle">
+                                            html css
+                                        </p>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div name="page3" id="page3" style="display: flex;">
+            <div style="width: 35vw;">
+
+            </div>
+            <div style="width: 65vw; height: 100vh;" id="certcontain">
+                <div class="certcontain-2">
+                    <div class="certcontain-3">
+                        <h1>
+                            Skills.
+                        </h1>
+                        <div class="certcontain-4">
+                            <!-- <div class="arrow">
+                                <img src="./prev.png" alt="prev" class="arrowbutton">
+                            </div> -->
+                            <div class=" cercontent" >
+                                <div class="carousel cerc" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
+                                    <div class="carousel-cell">C++</div>
+                                    <div class="carousel-cell">Html Css Js</div>
+                                    <div class="carousel-cell">Express Js</div>
+                                    <div class="carousel-cell">Mongodb</div>
+                                    <div class="carousel-cell">OS CN</div>
+                                </div>
+                            </div>
+                            <!-- <div class="arrow">
+                                <img src="./next.png" alt="next"class="arrowbutton">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="certcontain-2">
+                    <div class="certcontain-3">
+                        <h1>
+                            Certifications.
+                        </h1>
+                        <div class="certcontain-4">
+                            <!-- <div class="arrow">
+                                <img src="./prev.png" alt="prev" class="arrowbutton">
+                            </div> -->
+                            <div class="cercontent">
+                                <div class="carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
+                                    <div class="carousel-cell botomc" id="cert1">
+                                        <div class="botomc1">
+                                        </div>
+                                        <div class="botomc2">
+                                            <a href="https://certificate.codingninjas.com/verify/b5fac305052af593" target="_blank" >
+                                                <div class="cname">    
+                                                    Advanced Web Development
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-cell botomc" id="cert2"><div class="botomc1">
+                                        </div>
+                                        <div class="botomc2">
+                                            <a href="https://certificate.codingninjas.com/verify/b5fac305052af593" target="_blank" >
+                                                <div class="cname">    
+                                                    Competitive Programming C++
+                                                </div>
+                                            </a>
+                                        </div></div>
+                                    <div class="carousel-cell botomc" id="cert3"><div class="botomc1">
+                                        </div>
+                                        <div class="botomc2">
+                                            <a href="https://certificate.codingninjas.com/verify/b5fac305052af593" target="_blank" >
+                                                <div class="cname">    
+                                                    Object Oriented Programming in Java
+                                                </div>
+                                            </a>
+                                        </div></div>
+                                    <div class="carousel-cell botomc" id="cert4"><div class="botomc1">
+                                        </div>
+                                        <div class="botomc2">
+                                            <a href="https://certificate.codingninjas.com/verify/b5fac305052af593" target="_blank" >
+                                                <div class="cname">    
+                                                    Python
+                                                </div>
+                                            </a>
+                                        </div></div>
+                                    <div class="carousel-cell botomc" id="cert5"><div class="botomc1">
+                                        </div>
+                                        <div class="botomc2">
+                                            <a href="https://certificate.codingninjas.com/verify/b5fac305052af593" target="_blank" >
+                                                <div class="cname">    
+                                                    industry Training
+                                                </div>
+                                            </a>
+                                        </div></div>
+                                </div>
+                            </div>
+                            <!-- <div class="arrow">
+                                <img src="./next.png" alt="next"class="arrowbutton">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div name="page4" id="page4" style="display: flex;">
+            <div style="width: 35vw;">
+
+            </div>
+            <div class="linkcontainer-1">
+                <div class="linkhead">
+                    <b>Links</b>
+                </div>
+                <div class="linkcontainer-2">
+                    <div class="linkcontainer-3" >
+                        <a href="https://www.linkedin.com/in/ayushk16/" target="_blank"><img src="./images/icon-1-linkedin.png"><span><nbsp> </nbsp>Linkedin</span></a>
+                    </div>
+                    <div class="linkcontainer-3">
+                        <a href="https://github.com/ayushk16" target="_blank"><img src="./images/icon-2-github.png"><span><nbsp> </nbsp>GitHub</span></a>
+                    </div>
+                    <div class="linkcontainer-3">
+                        <a href="https://auth.geeksforgeeks.org/user/ayush369e6d/practice/" target="_blank"><img src="./images/icon-3-geeksforgeeks.png"><span><nbsp> </nbsp>GeeksForGeeks</span></a>
+                    </div>
+                    <div class="linkcontainer-3">
+                        <a href="https://www.instagram.com/ayush_13551/" target="_blank"><img src="./images/icon-4-instagram.png"><span><nbsp> </nbsp>Instagram</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
