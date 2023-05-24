@@ -109,6 +109,14 @@ canvas{
     border:none;
     border-radius: 10%;
 }
+/* .contactpallet{
+  height: 300px;
+  width: 150px;
+  background-color: palevioletred;
+  display: none;
+  z-index: 5;
+  float: right;
+} */
 #loophead{
     position: absolute;
     top:40%;
